@@ -1,0 +1,131 @@
+/* Company Cards */
+.table {
+    border: 1px solid black;
+    width: 50vw;
+    margin: auto;
+    margin-top:20px;
+}
+
+.table th {
+    background-color: black;
+    color:aliceblue;
+    padding: 5px;
+}
+
+.table td {
+    text-align: left;
+}
+
+.table_nit {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.table_name {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.table_address {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+
+
+/* Inputs and Forms */
+button, input[type=button] {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.company_delete, .company_update {
+    margin: 0px!important;
+}
+
+.company_update_response {
+    background-color: #CCC!important;
+    color: #333!important;
+    font-style: italic;
+    font-weight: 400!important;
+}
+
+.company_updated_message {
+    display: inline;
+    line-height: 30px;
+}
+
+.company_updated_dismiss {
+    float: right;
+    margin: 0px;
+}
+
+.regular_input {
+    display: block;
+    margin: auto;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+}
+
+.edit_company_input {
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    width: 100%;
+    height: 32px;
+}
+
+.input-card {
+    margin-top: 5px;
+}
+
+.company-search, .company-create, .company_data {
+    margin: auto;
+    width: fit-content;
+    vertical-align: top;
+}
+
+.company_data {
+    height: 575px;
+}
+
+.company-main {
+    width: 100%;
+    vertical-align: top;
+}
+
+.company-container {
+    width: 100%;
+    display: flex;
+}
+
+.company_menu {
+    background-color:#f6f6f6;
+    width: 20%;
+    margin-right: 2%;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    height: 200px;
+    border-bottom-right-radius: 10px;
+    padding-top:20px;
+}
+
+.company_menu > .input-button > input[type=button] {
+    width: 90%;
+}
+
+.company-card-deleted {
+    color:gray;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.company_navigation > .input-button {
+    display: inline;
+}
+
